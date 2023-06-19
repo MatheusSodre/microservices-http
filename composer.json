@@ -1,5 +1,5 @@
 {
-    "name": "matheus/microservices-http",
+    "name": "matheusSodre/microservices-http",
     "description": "package connect http services",
     "type": "library",
     "license": "MIT",
