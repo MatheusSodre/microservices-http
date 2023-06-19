@@ -1,5 +1,5 @@
 <?php 
-namespace Matheus\MicroservicesHttp\Services\Traits;
+namespace MatheusSodre\MicroservicesHttp\Services\Traits;
 use Illuminate\Support\Facades\Http;
 
 trait ConsumeExternalService
