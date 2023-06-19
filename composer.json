@@ -1,0 +1,19 @@
+{
+    "name": "matheus/microservices-http",
+    "description": "package connect http services",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Matheus\\MicroservicesHttp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MatheusSodre",
+            "email": "matheus.sodree@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
