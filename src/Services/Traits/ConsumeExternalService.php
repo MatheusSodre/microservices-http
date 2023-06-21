@@ -11,7 +11,7 @@ trait ConsumeExternalService
     ){
       $header = ['Accept' => 'aplication/json',
                  'Authorization' => $this->token];  
-      return Http::withHeaders()
+      return Http::withHeaders($header)
                   ->$method($this->url . $endPoint,$formParams);
     }
 }
