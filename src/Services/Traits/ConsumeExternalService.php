@@ -7,8 +7,7 @@ trait ConsumeExternalService
     public function request(
         string $method,
         string $endPoint,
-        array  $formParams = [],
-        array  $headers = []
+        array  $formParams = []
     ){
       $header = ['Accept' => 'aplication/json',
                  'Authorization' => $this->token];  
